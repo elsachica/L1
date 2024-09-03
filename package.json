@@ -1,0 +1,32 @@
+{
+  "name": "l1",
+  "version": "1.0.0",
+  "description": "Börja med att programmera",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "eslint .",
+      "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsachica/L1.git"
+  },
+  "keywords": [
+    "\"school\"",
+    "\"assignment\"",
+    "\"learning\"",
+    "\"exercise\""
+  ],
+  "author": "Elsa Gas Wikström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elsachica/L1/issues"
+  },
+  "homepage": "https://github.com/elsachica/L1#readme",
+  "devDependencies": {
+    "eslint": "^9.9.1",
+    "prettier": "^3.3.3"
+  }
+}
